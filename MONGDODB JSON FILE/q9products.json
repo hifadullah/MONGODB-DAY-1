@@ -1,0 +1,1 @@
+db.getCollection('product_data').find({$and: [{ product_price: 492 },{ product_color: 'indigo' }]});
